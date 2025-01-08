@@ -1,0 +1,10 @@
+(version 1)
+(rule led_edge
+	(constraint edge_clearance (min -1mm))
+	(condition "A.memberOfFootprint('*:SK6812-MINI-E')")
+)
+(rule edge_zones
+	(constraint edge_clearance (min 0.25mm))
+	(condition "A.Type == 'Zone'")
+)
+
