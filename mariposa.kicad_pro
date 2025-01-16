@@ -59,15 +59,12 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|150320000|71985000|af6181b9-0c12-4b61-bbf9-375eec3f44a1|7a07fd4f-b505-4246-8ec2-a61a0c2237ef",
-        "copper_edge_clearance|150320000|74515000|af6181b9-0c12-4b61-bbf9-375eec3f44a1|7a7e21f0-6599-4e39-8edb-e2f131700f26",
-        "hole_clearance|146950000|44855000|1c554adb-da5a-4b9e-936c-3e5612a09f3c|3f2b505e-5e69-4321-aded-efe2b3e3d753",
-        "hole_clearance|146950000|44855000|1c554adb-da5a-4b9e-936c-3e5612a09f3c|c64a7011-ebce-4312-87bb-75048c3fe846",
-        "hole_clearance|150320000|71985000|af6181b9-0c12-4b61-bbf9-375eec3f44a1|7a07fd4f-b505-4246-8ec2-a61a0c2237ef",
-        "hole_clearance|150320000|74515000|af6181b9-0c12-4b61-bbf9-375eec3f44a1|7a7e21f0-6599-4e39-8edb-e2f131700f26",
-        "hole_clearance|152890000|44205000|22a0dd0b-33f9-4420-9fbb-659d9b65e70e|df35338b-6471-4787-9ac6-e949d0cd7d84",
-        "hole_clearance|153050000|44855000|df35338b-6471-4787-9ac6-e949d0cd7d84|5c0328ad-fb35-406d-a070-168886cbcb2c",
-        "hole_clearance|153050000|44855000|df35338b-6471-4787-9ac6-e949d0cd7d84|5f245cc3-67f1-4e1d-8ee9-8b11f9382730"
+        "copper_edge_clearance|127855000|39300000|120e41e0-e930-431e-8476-e83a71820b56|db1d4533-0514-407a-8b56-3d319f4abeba",
+        "copper_edge_clearance|130385000|39300000|120e41e0-e930-431e-8476-e83a71820b56|b389184d-d0f6-433b-9d51-a169c797bc7a",
+        "copper_edge_clearance|150300000|71017679|af6181b9-0c12-4b61-bbf9-375eec3f44a1|7a07fd4f-b505-4246-8ec2-a61a0c2237ef",
+        "copper_edge_clearance|150300000|73547679|af6181b9-0c12-4b61-bbf9-375eec3f44a1|7a7e21f0-6599-4e39-8edb-e2f131700f26",
+        "copper_edge_clearance|169685000|39900000|ed287c1c-e68d-4246-bb3d-908884e26446|0cd92725-122b-4287-ac63-e811a8f59bbd",
+        "copper_edge_clearance|172215000|39900000|ed287c1c-e68d-4246-bb3d-908884e26446|06b7ad2a-47af-43de-9425-a203308fced7"
       ],
       "meta": {
         "version": 2
@@ -113,7 +110,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -126,8 +123,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
-        "min_connection": 0.0,
+        "min_clearance": 0.16,
+        "min_connection": 0.16,
         "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -138,7 +135,7 @@
         "min_text_height": 0.7,
         "min_text_thickness": 0.05,
         "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.15,
+        "min_track_width": 0.16,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -229,12 +226,20 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.4,
+          "drill": 0.25
+        },
+        {
           "diameter": 0.45,
           "drill": 0.3
         },
         {
           "diameter": 0.5,
           "drill": 0.35
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.36
         },
         {
           "diameter": 0.7,
@@ -525,14 +530,21 @@
       "+3V8": "power",
       "+5V": "power",
       "+BATT": "power",
+      "Earth_Clean": "power",
       "GND": "power",
+      "Net-(C4--)": "power",
       "Net-(D4-K)": "power",
       "Net-(D45-K)": "power",
       "Net-(FB1-Pad1)": "power",
       "Net-(J5-Pin_1)": "power",
+      "Net-(J6-Pin_10)": "power",
+      "Net-(J6-Pin_6)": "power",
       "PRI_LO": "power",
+      "PRI_MID": "power",
       "VBUS": "power",
-      "VCC": "power"
+      "VCC": "power",
+      "VDC": "power",
+      "VDD": "power"
     },
     "netclass_patterns": [
       {
