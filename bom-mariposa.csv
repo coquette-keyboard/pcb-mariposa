@@ -23,12 +23,12 @@
 22;"BT1";"JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal";1;"Battery";;;
 23;"FB5,FB1,FB2";"Ferrite_0805_2012Metric";3;"120 Ohm";;;
 24;"J6";"Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal";1;"Conn_01x10_MountingPin";;;
-25;"R9";"R_0603_1608Metric";1;"800k";;;
+25;"R9";"R_0603_1608Metric";1;"787k";;;
 26;"C44";"C_0603_1608Metric";1;"4.7 uF";;;
 27;"L1";"L_0603_1608Metric";1;"1 uH";;;
 28;"J7";"JST_SUR_SM02B-SURS-TF_1x02-1MP_P0.80mm_Horizontal";1;"Ext VCC Out";;;
 29;"R3,R4";"R_0603_1608Metric";2;"5.1k";;;
-30;"R10";"R_0603_1608Metric";1;"2M";;;
+30;"R10";"R_0603_1608Metric";1;"2.1M";;;
 31;"U2";"DSG0008A";1;"BQ25170DSGR";;;
 32;"U5";"SOT-563";1;"TPS628438DRL";;;
 33;"J2";"JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal";1;"Conn_01x03_MountingPin";;;

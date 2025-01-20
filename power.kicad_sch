@@ -7139,7 +7139,7 @@
 				)
 			)
 		)
-		(property "Value" "800k"
+		(property "Value" "787k"
 			(at 173.99 92.71 90)
 			(effects
 				(font
@@ -8269,8 +8269,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2M"
-			(at 162.814 92.71 90)
+		(property "Value" "2.1M"
+			(at 161.798 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
