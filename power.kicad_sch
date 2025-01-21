@@ -6603,7 +6603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Ferrite_SMD_AKL:Ferrite_0603_1608Metric"
+		(property "Footprint" "PCM_Ferrite_SMD_AKL:Ferrite_0805_2012Metric"
 			(at 137.16 116.332 0)
 			(effects
 				(font
@@ -8269,7 +8269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.1M"
+		(property "Value" "2M"
 			(at 161.798 92.71 90)
 			(effects
 				(font
