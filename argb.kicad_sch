@@ -5,6 +5,7 @@
 	(uuid "e315e562-a4aa-464d-a91c-c34d9bf8c7bb")
 	(paper "A4")
 	(title_block
+		(title "coquette mariposa argb")
 		(date "2025-02-02")
 		(rev "2.0")
 	)
