@@ -921,6 +921,741 @@
 				)
 			)
 		)
+		(symbol "SK6805-EC14_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6805-EC14"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "coquette_footprints:SK6805-EC14"
+				(at -13.208 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 1.016 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6805-EC14_1_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6805-EC14_1_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SK6805-EC14_1_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SK6805-EC14_2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6805-EC14"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "coquette_footprints:SK6805-EC14"
+				(at -13.208 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 1.016 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6805-EC14_2_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6805-EC14_2_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SK6805-EC14_2_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SK6805-EC14_3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6805-EC14"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "coquette_footprints:SK6805-EC14"
+				(at -13.208 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 1.016 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6805-EC14_3_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6805-EC14_3_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SK6805-EC14_3_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "coquette_symbols:SK6805-EC14"
 			(pin_names
 				(offset 0.254)
@@ -1093,9 +1828,9 @@
 			)
 			(symbol "SK6805-EC14_1_1"
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at 0 7.62 270)
 					(length 2.54)
-					(name "VSS"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1110,10 +1845,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "DIN"
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1129,9 +1864,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 7.62 270)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VDD"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1146,10 +1881,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "DOUT"
+					(name "DIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1528,22 +2263,22 @@
 		)
 	)
 	(junction
-		(at 114.3 66.04)
+		(at 124.46 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18a0ded8-c794-4c2a-bda6-c63c6151136e")
+		(uuid "181db504-529e-476b-8259-eecb0c42485b")
+	)
+	(junction
+		(at 124.46 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fd8738d-5fb4-40e1-a483-c3c21b4fb338")
 	)
 	(junction
 		(at 69.85 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36fbb9d2-9185-470d-b9c6-b46e68971b3d")
-	)
-	(junction
-		(at 92.71 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ca0643b-fae9-4098-a410-1683cfe94179")
 	)
 	(junction
 		(at 71.12 81.28)
@@ -1564,22 +2299,16 @@
 		(uuid "50d3435b-7a5e-4e11-a389-d4cff0baff8b")
 	)
 	(junction
-		(at 92.71 66.04)
+		(at 124.46 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b1eb6f7-ec61-429a-8111-28d586605d29")
+		(uuid "7e2a740f-7e4d-4c27-87fe-7f55883383f4")
 	)
 	(junction
-		(at 135.89 58.42)
+		(at 97.79 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "753d9921-5d30-4bd0-9065-1fc94e419548")
-	)
-	(junction
-		(at 92.71 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82cebf55-311d-4698-847f-6ebd545a3b25")
+		(uuid "82fcf6a9-ae26-464a-9ac0-393525a44e78")
 	)
 	(junction
 		(at 83.82 34.29)
@@ -1588,22 +2317,28 @@
 		(uuid "88a329e0-6ce0-47f5-864e-e52a0f7301f4")
 	)
 	(junction
-		(at 114.3 58.42)
+		(at 97.79 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e462567-d3b1-40e9-83b5-32d212b11270")
+		(uuid "91371233-521d-4cb2-9e59-3cf0faad6ef6")
 	)
 	(junction
-		(at 114.3 81.28)
+		(at 151.13 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b036217e-fa24-4aee-bf97-5bf178bd0296")
+		(uuid "bc62ccde-4377-49a7-9ab1-89d9b19e7a5d")
 	)
 	(junction
-		(at 135.89 66.04)
+		(at 151.13 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd664879-fee8-4f66-8c1d-e2356218689b")
+		(uuid "bf98a01b-7ea6-4b91-9360-f1b8e73e8882")
+	)
+	(junction
+		(at 97.79 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1ff6ea1-6571-4ff7-82d0-c37678e16240")
 	)
 	(junction
 		(at 71.12 66.04)
@@ -1617,23 +2352,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 81.28) (xy 92.71 81.28)
+			(xy 71.12 81.28) (xy 97.79 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0689472d-6995-4585-8433-5b1ba5dbb351")
-	)
-	(wire
-		(pts
-			(xy 114.3 58.42) (xy 135.89 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "102a5f7d-a69b-443a-a124-69f2789419fa")
 	)
 	(wire
 		(pts
@@ -1647,17 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 81.28) (xy 114.3 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b806f8c-5a1e-446a-a614-e3c896f64556")
-	)
-	(wire
-		(pts
-			(xy 121.92 73.66) (xy 128.27 73.66)
+			(xy 132.08 73.66) (xy 143.51 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1667,23 +2382,33 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 58.42) (xy 114.3 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f21f62b-2331-417c-94f0-b905897f01b0")
-	)
-	(wire
-		(pts
-			(xy 100.33 73.66) (xy 106.68 73.66)
+			(xy 105.41 73.66) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35cbad1a-afb6-4c7c-af2c-d0dc338196aa")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 151.13 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38df25a7-a32b-4e42-8b03-44c18bdd6fe6")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465a6598-9e92-460a-b789-c32762be0fb4")
 	)
 	(wire
 		(pts
@@ -1707,13 +2432,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 135.89 66.04)
+			(xy 97.79 81.28) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7eff5142-7e76-4222-acb1-4dca0d980f3c")
+		(uuid "5e3ef219-c196-415b-8eb8-477cb57b2cb4")
 	)
 	(wire
 		(pts
@@ -1747,7 +2472,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 58.42) (xy 135.89 58.42)
+			(xy 97.79 58.42) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9826bd-2377-4e9c-8bd5-bea65ed90abb")
+	)
+	(wire
+		(pts
+			(xy 161.29 58.42) (xy 151.13 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 59.69) (xy 146.05 58.42)
+			(xy 161.29 59.69) (xy 161.29 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +2522,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 66.04) (xy 92.71 66.04)
+			(xy 71.12 66.04) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1797,33 +2532,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 81.28) (xy 135.89 81.28)
+			(xy 124.46 81.28) (xy 151.13 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc34a6dc-bcab-448d-86b8-8fc06fd6ac61")
+		(uuid "af67e5ee-a8a9-4ec3-b912-848f7be7d15b")
 	)
 	(wire
 		(pts
-			(xy 71.12 58.42) (xy 92.71 58.42)
+			(xy 71.12 58.42) (xy 97.79 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d9ca9ab5-3f97-4ff1-bb82-676291f8da67")
-	)
-	(wire
-		(pts
-			(xy 92.71 66.04) (xy 114.3 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd587cbc-9d69-404a-8cf6-5edd2db56702")
 	)
 	(wire
 		(pts
@@ -1837,6 +2562,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 66.04) (xy 151.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea01952e-3fcb-4cb4-a338-d744753103cb")
+	)
+	(wire
+		(pts
 			(xy 97.79 41.91) (xy 83.82 41.91)
 		)
 		(stroke
@@ -1847,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 85.09 73.66)
+			(xy 78.74 73.66) (xy 90.17 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +2626,7 @@
 	)
 	(rectangle
 		(start 60.96 56.515)
-		(end 153.035 89.535)
+		(end 172.72 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -1999,7 +2734,7 @@
 	)
 	(global_label "argb_data_out"
 		(shape input)
-		(at 143.51 73.66 270)
+		(at 158.75 73.66 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2009,7 +2744,7 @@
 		)
 		(uuid "1e378da7-b592-4bc3-8fa9-10602793a502")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 88.3749 90)
+			(at 158.75 88.3749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,8 +2909,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6805-EC14_3")
 		(lib_id "coquette_symbols:SK6805-EC14")
-		(at 114.3 73.66 0)
+		(at 124.46 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2183,7 +2919,7 @@
 		(dnp no)
 		(uuid "04a0fa66-8f4d-4ecd-9df1-2aa4a962bab9")
 		(property "Reference" "D17"
-			(at 121.158 67.564 0)
+			(at 132.334 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2927,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC14"
-			(at 124.968 69.596 0)
+			(at 137.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2935,7 @@
 			)
 		)
 		(property "Footprint" "coquette_footprints:SK6805-EC14"
-			(at 104.14 81.788 0)
+			(at 114.3 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2945,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 116.84 83.185 0)
+			(at 127 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2955,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 115.316 84.582 0)
+			(at 125.476 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +3118,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 146.05 59.69 0)
+		(at 161.29 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2391,7 +3127,7 @@
 		(fields_autoplaced yes)
 		(uuid "1effa82b-f19c-4ee5-99fc-00c247290661")
 		(property "Reference" "#PWR0114"
-			(at 146.05 66.04 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +3136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 64.77 0)
+			(at 161.29 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +3144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 59.69 0)
+			(at 161.29 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +3153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 59.69 0)
+			(at 161.29 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +3162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 146.05 59.69 0)
+			(at 161.29 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +3656,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 62.23 0)
+		(at 124.46 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2929,7 +3665,7 @@
 		(dnp no)
 		(uuid "42b839c9-f1c5-4fb9-9e94-c6aba8223026")
 		(property "Reference" "C16"
-			(at 120.142 62.23 90)
+			(at 130.302 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +3673,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 118.11 62.23 90)
+			(at 128.27 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +3681,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.3348 66.04 0)
+			(at 123.4948 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 62.23 0)
+			(at 124.46 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +3699,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 62.23 0)
+			(at 124.46 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +4067,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 62.23 0)
+		(at 97.79 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3340,7 +4076,7 @@
 		(dnp no)
 		(uuid "770b99b8-0987-4073-98bb-484e34b45801")
 		(property "Reference" "C15"
-			(at 98.552 62.23 90)
+			(at 103.632 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +4084,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 96.52 62.23 90)
+			(at 101.6 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +4092,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 91.7448 66.04 0)
+			(at 96.8248 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +4101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 62.23 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +4110,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 62.23 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +4135,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 135.89 62.23 0)
+		(at 151.13 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3408,7 +4144,7 @@
 		(dnp no)
 		(uuid "97a572b5-d232-415d-8aa4-4b3b11f294ca")
 		(property "Reference" "C17"
-			(at 141.732 62.23 90)
+			(at 156.972 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +4152,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 139.7 62.23 90)
+			(at 154.94 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +4160,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 134.9248 66.04 0)
+			(at 150.1648 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +4169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 62.23 0)
+			(at 151.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +4178,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 62.23 0)
+			(at 151.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +4278,7 @@
 	)
 	(symbol
 		(lib_id "coquette_symbols:SK6805-EC14")
-		(at 135.89 73.66 0)
+		(at 151.13 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3550,7 +4286,7 @@
 		(dnp no)
 		(uuid "9f146394-ddd7-47a9-9b84-30fc0a8cacd2")
 		(property "Reference" "D18"
-			(at 142.748 67.564 0)
+			(at 159.004 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +4294,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC14"
-			(at 146.558 69.596 0)
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +4302,7 @@
 			)
 		)
 		(property "Footprint" "coquette_footprints:SK6805-EC14"
-			(at 125.73 81.788 0)
+			(at 140.97 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +4312,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 138.43 83.185 0)
+			(at 153.67 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +4322,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 136.906 84.582 0)
+			(at 152.146 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,8 +4419,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6805-EC14_2")
 		(lib_id "coquette_symbols:SK6805-EC14")
-		(at 92.71 73.66 0)
+		(at 97.79 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3692,7 +4429,7 @@
 		(dnp no)
 		(uuid "b996b7f6-d7cf-489c-b499-1696aee0a8b8")
 		(property "Reference" "D16"
-			(at 99.568 67.564 0)
+			(at 105.41 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +4437,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC14"
-			(at 103.378 69.596 0)
+			(at 110.236 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +4445,7 @@
 			)
 		)
 		(property "Footprint" "coquette_footprints:SK6805-EC14"
-			(at 82.55 81.788 0)
+			(at 87.63 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +4455,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 95.25 83.185 0)
+			(at 100.33 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +4465,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 93.726 84.582 0)
+			(at 98.806 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,6 +4562,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6805-EC14_1")
 		(lib_id "coquette_symbols:SK6805-EC14")
 		(at 71.12 73.66 0)
 		(unit 1)
@@ -3834,7 +4572,7 @@
 		(dnp no)
 		(uuid "cd3c3586-ae75-4287-ae7c-4a9da069d1ed")
 		(property "Reference" "D15"
-			(at 77.978 67.564 0)
+			(at 78.74 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +4580,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC14"
-			(at 81.788 69.596 0)
+			(at 83.566 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4304,6 +4304,12 @@
 		(color 0 0 0 0)
 		(uuid "cc575712-879e-487d-a49f-40e357982187")
 	)
+	(junction
+		(at 195.58 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd8b2318-14f4-456e-96ee-1b0269ea8b34")
+	)
 	(no_connect
 		(at 50.8 68.58)
 		(uuid "00d17f65-5891-4f74-b2ea-e592e2d0bb1b")
@@ -4384,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 93.98) (xy 195.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b247c9a-69a5-4e6a-b57d-1724fc806a4d")
+	)
+	(wire
+		(pts
 			(xy 187.96 76.2) (xy 199.39 76.2)
 		)
 		(stroke
@@ -4424,13 +4440,23 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 86.36) (xy 252.73 81.28)
+			(xy 195.58 81.28) (xy 199.39 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67f12a4a-1245-4228-90a5-56b9a87db71c")
+		(uuid "60a4a500-4170-42c4-a5e1-5ae61f14ce12")
+	)
+	(wire
+		(pts
+			(xy 252.73 81.28) (xy 252.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738072fc-a06f-4bde-851c-fc1d28142292")
 	)
 	(wire
 		(pts
@@ -4574,6 +4600,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 93.98) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86fa425-c33b-40ca-adbf-f48a5c5d161d")
+	)
+	(wire
+		(pts
 			(xy 187.96 86.36) (xy 187.96 83.82)
 		)
 		(stroke
@@ -4698,7 +4734,7 @@
 	)
 	(rectangle
 		(start 181.61 66.04)
-		(end 260.35 96.52)
+		(end 281.94 109.22)
 		(stroke
 			(width 0)
 			(type default)
@@ -6401,7 +6437,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 199.39 81.28 90)
+		(at 195.58 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6409,7 +6445,7 @@
 		(dnp no)
 		(uuid "12d7a686-6a28-482b-b1c0-ac365d5754ff")
 		(property "Reference" "#PWR086"
-			(at 203.2 81.28 0)
+			(at 195.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +6454,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 197.612 83.82 90)
+			(at 198.12 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +6462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 81.28 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 81.28 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 199.39 81.28 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,72 +7298,6 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 252.73 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "337a76da-fed1-4604-8280-2ee2077428ac")
-		(property "Reference" "#PWR089"
-			(at 252.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b05b4272-c699-4b29-8d2d-9d1a0fb0e0f5")
-		)
-		(instances
-			(project "mariposa"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/aefb2378-1b2c-46d5-9c89-47f5f798e766"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
 		(at 196.85 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7455,6 +7425,73 @@
 			(project "mariposa"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/aefb2378-1b2c-46d5-9c89-47f5f798e766"
 					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 195.58 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e54e4f4-93cd-4ab6-94e6-b3e5ecc572f9")
+		(property "Reference" "R8"
+			(at 198.628 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.406 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.596 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1542a03-23b3-4564-9cbf-ed5b2f9a3f9e")
+		)
+		(pin "1"
+			(uuid "c44a95a8-7ac3-431b-9906-0989b7d9937b")
+		)
+		(instances
+			(project "mariposa"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/aefb2378-1b2c-46d5-9c89-47f5f798e766"
+					(reference "R8")
 					(unit 1)
 				)
 			)

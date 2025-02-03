@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.3,
-          "width": 0.67
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -59,10 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|148830000|72012679|6f89806c-c9e1-42d8-b076-c7c8e11f5961|7fd663f9-616b-48f5-97f1-726d9d3166fc",
-        "copper_edge_clearance|148830000|72552679|6f89806c-c9e1-42d8-b076-c7c8e11f5961|91ea1a93-95ff-46a8-ad6b-170d9cb91908",
-        "copper_edge_clearance|151170000|72012679|ff956813-833f-4aa1-b045-c5cae9b6ea04|924fdbeb-f147-4cbd-a968-7fb1e13ef044",
-        "copper_edge_clearance|151170000|72552679|ff956813-833f-4aa1-b045-c5cae9b6ea04|2ad26ab8-3df7-4e6e-aad4-da87c87286c3",
         "drill_out_of_range|163820003|53080000|be6db593-d407-4ca9-9bc4-1bf89d7d44d5|00000000-0000-0000-0000-000000000000",
         "drill_out_of_range|164920000|53080000|b1a23e8d-4a34-4316-b978-56bd18769cd1|00000000-0000-0000-0000-000000000000",
         "hole_clearance|146950000|48081927|1c554adb-da5a-4b9e-936c-3e5612a09f3c|3f2b505e-5e69-4321-aded-efe2b3e3d753",

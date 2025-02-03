@@ -465,9 +465,9 @@
 		)
 		(symbol "SK6805-EC14_1_1"
 			(pin power_in line
-				(at 0 -7.62 90)
+				(at 0 7.62 270)
 				(length 2.54)
-				(name "VSS"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -482,10 +482,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 0 0)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "DIN"
+				(name "DOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -501,9 +501,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 7.62 270)
+				(at 0 -7.62 90)
 				(length 2.54)
-				(name "VDD"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -518,10 +518,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 0 0)
 				(length 2.54)
-				(name "DOUT"
+				(name "DIN"
 					(effects
 						(font
 							(size 1.27 1.27)
