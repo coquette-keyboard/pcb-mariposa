@@ -4,7 +4,7 @@
 	(condition "A.memberOfFootprint('*:SK6812-MINI-E')")
 )
 (rule edge_zones
-	(constraint edge_clearance (min 0.25mm))
+	(constraint edge_clearance (min 0.36mm))
 	(condition "A.Type == 'Zone'")
 )
 
