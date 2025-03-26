@@ -4,7 +4,20 @@
 	(condition "A.memberOfFootprint('*:SK6812-MINI-E')")
 )
 (rule edge_zones
-	(constraint edge_clearance (min 0.36mm))
-	(condition "A.Type == 'Zone'")
+	(constraint edge_clearance (min 0.25mm))
+	(condition "A.Type == 'Zone' && A.existsOnLayer('F.Cu')")
+)
+(rule edge_zones
+	(constraint edge_clearance (min 0.25mm))
+	(condition "A.Type == 'Zone' && A.existsOnLayer('B.Cu')")
 )
 
+(rule edge_zones_inner
+	(constraint edge_clearance (min 0.4mm))
+	(condition "A.Type == 'Zone' && A.existsOnLayer('In1.Cu')")
+)
+
+(rule edge_zones_inner
+	(constraint edge_clearance (min 0.4mm))
+	(condition "A.Type == 'Zone' && A.existsOnLayer('In2.Cu')")
+)
