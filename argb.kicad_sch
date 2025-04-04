@@ -2763,8 +2763,8 @@
 		)
 	)
 	(rectangle
-		(start 155.575 22.225)
-		(end 194.945 48.895)
+		(start 146.685 21.59)
+		(end 179.07 48.895)
 		(stroke
 			(width 0)
 			(type default)
@@ -2788,7 +2788,7 @@
 	)
 	(rectangle
 		(start 19.05 74.295)
-		(end 269.875 106.68)
+		(end 242.57 106.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -2800,7 +2800,7 @@
 	)
 	(rectangle
 		(start 68.58 21.59)
-		(end 151.765 52.07)
+		(end 144.145 52.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -2842,7 +2842,7 @@
 	)
 	(text "argb out\n"
 		(exclude_from_sim no)
-		(at 159.512 21.336 0)
+		(at 150.622 20.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3079,16 +3079,6 @@
 			(type default)
 		)
 		(uuid "35cbad1a-afb6-4c7c-af2c-d0dc338196aa")
-	)
-	(wire
-		(pts
-			(xy 133.35 34.29) (xy 138.43 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ca1df1-013b-4fda-89e9-8e47da58f0bf")
 	)
 	(wire
 		(pts
@@ -3410,6 +3400,16 @@
 		)
 		(uuid "fb77979b-84bc-4c07-b7d0-cadd8085c971")
 	)
+	(wire
+		(pts
+			(xy 148.59 31.75) (xy 165.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff89d412-b591-4f0e-968a-5672d83b10e7")
+	)
 	(global_label "argb_data"
 		(shape input)
 		(at 21.59 91.44 270)
@@ -3522,7 +3522,7 @@
 	)
 	(global_label "argb_data_out"
 		(shape input)
-		(at 173.99 29.21 180)
+		(at 165.1 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3532,7 +3532,7 @@
 		)
 		(uuid "8612305e-ce16-447d-80ac-4ff2c6373f76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.2751 29.21 0)
+			(at 150.3851 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3752,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 173.99 34.29 0)
+		(at 165.1 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3760,7 +3760,7 @@
 		(dnp no)
 		(uuid "077f94f1-c020-4880-bb51-ec3493e79b0a")
 		(property "Reference" "#PWR014"
-			(at 173.99 40.64 0)
+			(at 165.1 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3769,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.466 38.862 0)
+			(at 163.576 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 34.29 0)
+			(at 165.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 34.29 0)
+			(at 165.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 173.99 34.29 0)
+			(at 165.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 81.28 39.3699 0)
 			(effects
 				(font
@@ -4152,72 +4152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 135.89 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2271da98-5219-43fb-89b5-e86aa38ba25a")
-		(property "Reference" "#PWR0116"
-			(at 135.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 135.89 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82cebb36-61d3-4582-acb5-1dc337b572d3")
-		)
-		(instances
-			(project "mariposa"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDC")
 		(at 77.47 34.29 90)
 		(unit 1)
@@ -4286,8 +4220,8 @@
 	)
 	(symbol
 		(lib_id "power:PRI_LO")
-		(at 173.99 31.75 90)
-		(mirror x)
+		(at 148.59 31.75 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4295,7 +4229,7 @@
 		(dnp no)
 		(uuid "2b25dc11-84a8-478e-bf34-620abfd96adb")
 		(property "Reference" "#PWR05"
-			(at 177.8 31.75 0)
+			(at 148.59 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4238,7 @@
 			)
 		)
 		(property "Value" "PRI_LO"
-			(at 167.64 31.75 90)
+			(at 148.59 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 31.75 0)
+			(at 148.59 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 31.75 0)
+			(at 148.59 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +4264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"PRI_LO\""
-			(at 173.99 31.75 0)
+			(at 148.59 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5468,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 179.07 31.75 0)
+		(at 170.18 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5542,7 +5476,7 @@
 		(dnp no)
 		(uuid "9828a56c-88b2-4f49-a4f2-59a046d01d1c")
 		(property "Reference" "J2"
-			(at 178.054 25.908 0)
+			(at 169.164 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5485,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_MountingPin"
-			(at 184.404 45.212 90)
+			(at 175.514 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5494,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 179.07 31.75 0)
+			(at 170.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 31.75 0)
+			(at 170.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5512,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 179.07 31.75 0)
+			(at 170.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6115,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 179.07 39.37 0)
+		(at 170.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6189,7 +6123,7 @@
 		(dnp no)
 		(uuid "dead034e-0870-445e-96c3-20cf4de2a778")
 		(property "Reference" "#PWR062"
-			(at 179.07 45.72 0)
+			(at 170.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6132,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 43.688 0)
+			(at 168.91 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +6141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 39.37 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +6150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 39.37 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 179.07 39.37 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6181,7 @@
 	)
 	(symbol
 		(lib_id "power:PRI_LO")
-		(at 138.43 34.29 270)
+		(at 133.35 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6256,7 +6190,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7ac7abd-81e8-472a-8d61-b0cacab6c2d4")
 		(property "Reference" "#PWR0110"
-			(at 134.62 34.29 0)
+			(at 133.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,16 +6199,15 @@
 			)
 		)
 		(property "Value" "PRI_LO"
-			(at 142.24 34.2899 90)
+			(at 133.35 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 34.29 0)
+			(at 133.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 34.29 0)
+			(at 133.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"PRI_LO\""
-			(at 138.43 34.29 0)
+			(at 133.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
