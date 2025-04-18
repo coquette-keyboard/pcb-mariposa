@@ -939,279 +939,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Capacitor_AKL:CP_SMD_Tantalum_Kemet-T_3528"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CP_SMD_Tantalum_Kemet-T_3528"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Capacitor_Tantalum_SMD_AKL:CP_EIA-3528-12_Kemet-T"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Tantalum Electrolytic Capacitor, Kemet Type T, 3528, European Symbol, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor polarized eu smd tantalum electrolytic kemet-t 3528"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP_SMD_Tantalum_Kemet-T_3528_0_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "CP_SMD_Tantalum_Kemet-T_3528_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.6604 -0.6604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.8796 0.6096) (xy 0.6096 -1.8796) (xy 0.9652 -1.524) (xy -1.524 0.9652) (xy -1.8796 0.6096)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9652 1.524) (xy 1.524 -0.9652) (xy 1.8796 -0.6096) (xy -0.6096 1.8796) (xy -0.9652 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 1.016 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 0.508 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.6604 0.6604) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CP_SMD_Tantalum_Kemet-T_3528_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CP_SMD_Tantalum_Kemet-T_3528_1_2"
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_Management:TPS22917DBV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2788,7 +2515,7 @@
 	)
 	(rectangle
 		(start 19.05 74.295)
-		(end 242.57 106.68)
+		(end 195.58 106.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -2857,10 +2584,10 @@
 		(uuid "181db504-529e-476b-8259-eecb0c42485b")
 	)
 	(junction
-		(at 189.23 99.06)
+		(at 133.35 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a0d0205-21c6-4ce9-8094-fb6fbbc2a081")
+		(uuid "1d1e5ab7-4816-4e7e-8e9b-20ae6a94644d")
 	)
 	(junction
 		(at 135.89 83.82)
@@ -2881,28 +2608,10 @@
 		(uuid "2fd8738d-5fb4-40e1-a483-c3c21b4fb338")
 	)
 	(junction
-		(at 215.9 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "318724d7-dd97-4655-9e5e-703c68d5aa34")
-	)
-	(junction
-		(at 162.56 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31ffcec5-748b-4290-96df-101026fc1fbe")
-	)
-	(junction
 		(at 77.47 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36fbb9d2-9185-470d-b9c6-b46e68971b3d")
-	)
-	(junction
-		(at 189.23 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fbc1186-61e9-415e-956e-d700b81076c0")
 	)
 	(junction
 		(at 29.21 99.06)
@@ -2935,12 +2644,6 @@
 		(uuid "80d1a29f-2874-40e3-a6f2-28506ac90d78")
 	)
 	(junction
-		(at 189.23 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81066dec-9890-407e-9c87-7aeae33acff6")
-	)
-	(junction
 		(at 55.88 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2963,12 +2666,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91371233-521d-4cb2-9e59-3cf0faad6ef6")
-	)
-	(junction
-		(at 133.35 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9802c3bd-1316-4998-8543-f01e5a84453e")
 	)
 	(junction
 		(at 109.22 76.2)
@@ -2995,12 +2692,6 @@
 		(uuid "d1ff6ea1-6571-4ff7-82d0-c37678e16240")
 	)
 	(junction
-		(at 215.9 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "deeaf3f4-4186-4e4c-a3ff-cbc3f65f486b")
-	)
-	(junction
 		(at 29.21 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3019,16 +2710,6 @@
 			(type default)
 		)
 		(uuid "0689472d-6995-4585-8433-5b1ba5dbb351")
-	)
-	(wire
-		(pts
-			(xy 196.85 91.44) (xy 208.28 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f33577c-655b-4355-b23b-5984c0cbb5a5")
 	)
 	(wire
 		(pts
@@ -3052,6 +2733,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 100.33) (xy 170.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d84e915-38c8-467e-9f90-d6ffe72e5c39")
+	)
+	(wire
+		(pts
 			(xy 116.84 91.44) (xy 128.27 91.44)
 		)
 		(stroke
@@ -3059,16 +2750,6 @@
 			(type default)
 		)
 		(uuid "1ea9a6ec-d084-4096-880a-92815f6fe10e")
-	)
-	(wire
-		(pts
-			(xy 162.56 76.2) (xy 189.23 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b23fb6-c4a3-4a63-9554-2876eb737ebc")
 	)
 	(wire
 		(pts
@@ -3112,13 +2793,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 76.2) (xy 215.9 76.2)
+			(xy 176.53 100.33) (xy 170.18 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "564c279f-5118-414a-9a9b-9caa30465975")
+		(uuid "53010409-f35c-442d-bb4c-07ad5689b8ad")
 	)
 	(wire
 		(pts
@@ -3149,16 +2830,6 @@
 			(type default)
 		)
 		(uuid "5e3ef219-c196-415b-8eb8-477cb57b2cb4")
-	)
-	(wire
-		(pts
-			(xy 189.23 83.82) (xy 215.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a1ebd1c-cca2-4b8f-88f1-a659bd37f7db")
 	)
 	(wire
 		(pts
@@ -3212,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 78.74) (xy 229.87 76.2)
+			(xy 187.96 77.47) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3272,33 +2943,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 76.2) (xy 229.87 76.2)
+			(xy 162.56 76.2) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6267678-843c-4fe5-8963-1a9ee016c0e5")
-	)
-	(wire
-		(pts
-			(xy 189.23 99.06) (xy 215.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c81edf70-031e-4e88-9d46-3f9c8444ea23")
-	)
-	(wire
-		(pts
-			(xy 162.56 99.06) (xy 189.23 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d47d11a5-5db6-4744-bd04-9d2b0ecd1944")
 	)
 	(wire
 		(pts
@@ -3372,26 +3023,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 189.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66d2650-44ff-4bb5-859b-88bbbc09aca2")
-	)
-	(wire
-		(pts
-			(xy 170.18 91.44) (xy 181.61 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f67d6ed5-c951-45ca-bbb6-5d14570f40a9")
-	)
-	(wire
-		(pts
 			(xy 77.47 34.29) (xy 91.44 34.29)
 		)
 		(stroke
@@ -3456,7 +3087,7 @@
 	)
 	(global_label "argb_data_out"
 		(shape input)
-		(at 223.52 99.06 0)
+		(at 176.53 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3466,7 +3097,7 @@
 		)
 		(uuid "1e378da7-b592-4bc3-8fa9-10602793a502")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.87 99.06 0)
+			(at 192.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,75 +3448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:CP_SMD_Tantalum_Kemet-T_3528")
-		(at 133.35 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c9447cf-533b-4861-8b4c-f256d57d5357")
-		(property "Reference" "C13"
-			(at 137.16 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 137.16 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_Tantalum_SMD_AKL:CP_EIA-3528-12_Kemet-T"
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Tantalum Electrolytic Capacitor, Kemet Type T, 3528, European Symbol, Alternate KiCad Library"
-			(at 133.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67dd50b8-8c9a-4a8f-81b2-d6307b08a737")
-		)
-		(pin "1"
-			(uuid "5baba361-4327-4d4e-94fd-e1d9a59c2324")
-		)
-		(instances
-			(project ""
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 43.18 52.07 0)
 		(unit 1)
@@ -3953,7 +3515,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 229.87 78.74 0)
+		(at 187.96 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3962,7 +3524,7 @@
 		(fields_autoplaced yes)
 		(uuid "1effa82b-f19c-4ee5-99fc-00c247290661")
 		(property "Reference" "#PWR0114"
-			(at 229.87 85.09 0)
+			(at 187.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 83.82 0)
+			(at 187.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 78.74 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +3550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 78.74 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +3559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 229.87 78.74 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,73 +3847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 133.35 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bed20c0-68f1-426e-93a5-9297da33610a")
-		(property "Reference" "#PWR0111"
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 133.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1f1bd24-1f05-4ce7-b068-9cf5333a53a1")
-		)
-		(instances
-			(project "mariposa"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 24.13 45.72 270)
 		(unit 1)
@@ -4422,74 +3917,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ff7dbe0-3664-41a4-b8db-af0320a9f8e8")
-		(property "Reference" "C22"
-			(at 195.072 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 193.04 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 188.2648 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "656f7aae-8b0c-4407-b70a-628daffda80d")
-		)
-		(pin "1"
-			(uuid "bd6298ea-6ea1-429d-a974-ec8b1e32ac00")
-		)
-		(instances
-			(project "mariposa"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 162.56 80.01 0)
 		(mirror y)
 		(unit 1)
@@ -4551,6 +3978,74 @@
 			(project "mariposa"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4048bbd4-ac8a-4c95-8bdc-b249baa250b2")
+		(property "Reference" "C53"
+			(at 139.192 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 137.16 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 132.3848 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db66ac5f-85ed-4676-9079-4583715ef454")
+		)
+		(pin "1"
+			(uuid "5e4c3fae-624f-47e8-9093-700c1c71179b")
+		)
+		(instances
+			(project "mariposa"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -5180,53 +4675,52 @@
 		)
 	)
 	(symbol
-		(lib_name "SK6805-EC14_3")
-		(lib_id "coquette_symbols:SK6805-EC14")
-		(at 189.23 91.44 0)
+		(lib_id "power:Earth")
+		(at 133.35 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8221b87b-705e-4dc6-871d-2275ad525704")
-		(property "Reference" "D21"
-			(at 197.104 85.598 0)
+		(uuid "77bb78e0-8183-4f5c-8ecd-ccd144df562f")
+		(property "Reference" "#PWR086"
+			(at 133.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "SK6805-EC14"
-			(at 201.93 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "coquette_footprints:SK6805-EC14"
-			(at 179.07 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 191.77 100.965 0)
+		(property "Value" "GND"
+			(at 131.826 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 190.246 102.362 0)
+		(property "Datasheet" "~"
+			(at 133.35 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 133.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,21 +4729,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cd172b7-2eb9-4537-a3b2-7c83635f4431")
-		)
-		(pin "2"
-			(uuid "434fb90a-799e-4dbd-a81c-4cd7a3ded061")
-		)
-		(pin "4"
-			(uuid "ec73f875-e539-4abd-bae4-8bb4e949e73a")
-		)
-		(pin "3"
-			(uuid "772aa707-b02a-4613-8690-bc4cb1e0ec23")
+			(uuid "c61a0984-01ee-4a0b-a950-1ae8656bdb47")
 		)
 		(instances
 			(project "mariposa"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
-					(reference "D21")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -5333,7 +4818,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 223.52 95.25 180)
+		(at 170.18 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5341,7 +4826,7 @@
 		(dnp no)
 		(uuid "8c265d29-55a3-46a9-887f-7abcf9945419")
 		(property "Reference" "R13"
-			(at 226.568 95.25 90)
+			(at 173.228 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +4834,7 @@
 			)
 		)
 		(property "Value" "R620"
-			(at 228.6 95.25 90)
+			(at 175.26 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +4842,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 222.504 94.996 90)
+			(at 169.164 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +4851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 95.25 0)
+			(at 170.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +4860,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 223.52 95.25 0)
+			(at 170.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,81 +5021,6 @@
 			(project "mariposa"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "coquette_symbols:SK6805-EC14")
-		(at 215.9 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d0e37f1-f4e8-423a-962f-618f25501ac2")
-		(property "Reference" "D22"
-			(at 223.774 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC14"
-			(at 228.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "coquette_footprints:SK6805-EC14"
-			(at 205.74 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 218.44 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 216.916 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e2237cb-dc7c-444a-b506-c0b88361c252")
-		)
-		(pin "2"
-			(uuid "5d8214eb-8f3c-4931-8e47-fe3cc64140e7")
-		)
-		(pin "4"
-			(uuid "38d9b199-ba47-40c2-9afa-613146bc0f52")
-		)
-		(pin "3"
-			(uuid "0101c5dc-9ae1-4a92-95a8-c3b1429b06f0")
-		)
-		(instances
-			(project "mariposa"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
-					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -5972,74 +5382,6 @@
 			(project ""
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 215.9 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7d4c910-e3ae-4486-a7b2-986ce835433a")
-		(property "Reference" "C23"
-			(at 221.742 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 219.71 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 214.9348 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 215.9 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "367f6f0f-2dfe-4b71-9b56-0c68fbc0b317")
-		)
-		(pin "1"
-			(uuid "c8e489fe-6522-4dfc-9c62-90e4d7f72ee6")
-		)
-		(instances
-			(project "mariposa"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/3ca3d760-5559-4665-8ed1-eaf6a9f1daf8"
-					(reference "C23")
 					(unit 1)
 				)
 			)

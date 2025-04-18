@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.8"
+      "Version": "9.0.1"
     },
-    "CreationDate": "2025-02-04T17:04:15+00:00"
+    "CreationDate": "2025-04-05T00:33:59+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "2.0"
     },
     "Size": {
-      "X": 49.5764,
-      "Y": 106.0791
+      "X": 45.1998,
+      "Y": 100.2
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -24,76 +24,76 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.13,
-      "PadToTrack": 0.13,
-      "TrackToTrack": 0.13,
-      "MinLineWidth": 0.152,
-      "TrackToRegion": 0.13,
-      "RegionToRegion": 0.13
+      "PadToPad": 0.11,
+      "PadToTrack": 0.11,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.11,
+      "TrackToRegion": 0.11,
+      "RegionToRegion": 0.11
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.13,
-      "PadToTrack": 0.13,
-      "TrackToTrack": 0.13,
-      "MinLineWidth": 0.2,
-      "TrackToRegion": 0.13,
-      "RegionToRegion": 0.13
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.24,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "mariposa-F_Cu.gbr",
+      "Path": "mariposa-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-In1_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
+      "Path": "mariposa-In1_Cu.g1",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-In2_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
+      "Path": "mariposa-In2_Cu.g2",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-B_Cu.gbr",
+      "Path": "mariposa-B_Cu.gbl",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-F_Paste.gbr",
+      "Path": "mariposa-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-B_Paste.gbr",
+      "Path": "mariposa-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-F_Silkscreen.gbr",
+      "Path": "mariposa-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-B_Silkscreen.gbr",
+      "Path": "mariposa-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-F_Mask.gbr",
+      "Path": "mariposa-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "mariposa-B_Mask.gbr",
+      "Path": "mariposa-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "mariposa-Edge_Cuts.gbr",
+      "Path": "mariposa-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
