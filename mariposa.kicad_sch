@@ -7561,28 +7561,6 @@
 			)
 		)
 	)
-	(global_label "BATT_READ_EN"
-		(shape input)
-		(at 120.65 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9a1d497-9fc7-4c80-b56a-f4c48aa52308")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4455 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "extcomin"
 		(shape input)
 		(at 238.76 29.21 180)
