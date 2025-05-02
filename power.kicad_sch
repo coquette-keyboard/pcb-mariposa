@@ -5763,28 +5763,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 179.07 35.56 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aaa4caca-736b-4dbe-a795-d7a675e23df5")
-		(property "Netclass" "power"
-			(at 176.53 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
 		(at 50.8 38.1 180)
 		(effects
 			(font
@@ -7358,7 +7336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 247.3452 36.83 0)
 			(effects
 				(font
@@ -10879,7 +10857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 188.9252 41.91 0)
 			(effects
 				(font
