@@ -4559,16 +4559,6 @@
 		)
 		(uuid "5279fe9d-436a-469c-9836-c59a6a65f011")
 	)
-	(text "R10 – enter as 1.614 in ZMK config (so it thinks 4.1V is 4.2)"
-		(exclude_from_sim no)
-		(at 161.29 98.552 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "60abe133-990c-4931-8459-39e91473c805")
-	)
 	(text "battery connector"
 		(exclude_from_sim no)
 		(at 102.616 72.39 0)
@@ -5299,7 +5289,7 @@
 	)
 	(global_label "chg_pg"
 		(shape input)
-		(at 154.94 43.18 0)
+		(at 154.94 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5309,7 +5299,7 @@
 		)
 		(uuid "7f398adc-8b2c-4e1a-98f7-c014dc9f3f38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.2191 43.18 0)
+			(at 163.2191 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5311,7 @@
 	)
 	(global_label "chg_stat"
 		(shape input)
-		(at 154.94 50.8 0)
+		(at 154.94 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5331,7 +5321,7 @@
 		)
 		(uuid "8d705bab-6795-4f59-bc85-f66973f880db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.0579 50.8 0)
+			(at 165.0579 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 154.686 91.186 90)
 			(effects
 				(font

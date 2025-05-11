@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.875
+          "drill": 0.9906,
+          "height": 0.9906,
+          "width": 0.9906
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.22
         }
       },
       "diff_pair_dimensions": [
@@ -85,23 +85,27 @@
           ""
         ],
         [
-          "silk_over_copper|139684517|80793741|b4f9d95b-e34a-43fe-9d08-be764e7a2ab9|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|139660679|80912002|3113b88f-bbb3-4ee5-8b4c-c0e90aa4cc11|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|139822140|81155935|b99f4eb1-6d00-46df-b500-81b0001ce7db|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|139664848|80934879|b99f4eb1-6d00-46df-b500-81b0001ce7db|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|139925645|80722512|6282aad6-0edf-4fb7-b2f4-0aff85492e37|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|139680347|80796713|b4f9d95b-e34a-43fe-9d08-be764e7a2ab9|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|140101584|80699393|bba9c1bb-0726-445d-be73-c3e09d7c23f6|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|139687793|80791577|6282aad6-0edf-4fb7-b2f4-0aff85492e37|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|140120112|80701794|3113b88f-bbb3-4ee5-8b4c-c0e90aa4cc11|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|139852488|80730399|bba9c1bb-0726-445d-be73-c3e09d7c23f6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|140154040|80713130|f1e8f7d8-872f-4785-b5f8-e30d3599dd76|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -113,15 +117,11 @@
           ""
         ],
         [
-          "silk_over_copper|140202883|80887331|f1e8f7d8-872f-4785-b5f8-e30d3599dd76|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|140309764|80755581|e2315560-1115-41fc-af59-a7481969ee94|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|140232731|80728592|0ca58c1d-9752-47dc-b3f0-05e703c93031|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|140310770|80756787|e2315560-1115-41fc-af59-a7481969ee94|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|140335699|80782503|0ca58c1d-9752-47dc-b3f0-05e703c93031|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -174,6 +174,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -213,7 +214,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -244,12 +245,12 @@
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.42,
-          "td_maxheight": 0.7,
-          "td_maxlen": 0.5,
+          "td_length_ratio": 1.0,
+          "td_maxheight": 0.8,
+          "td_maxlen": 1.3,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 1.0
         }
       ],
       "track_widths": [
