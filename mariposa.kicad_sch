@@ -10813,7 +10813,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 201.93 46.99 90)
+		(at 201.93 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10821,7 +10821,7 @@
 		(dnp no)
 		(uuid "84802eeb-b634-44e0-aca7-9eb58ed3b7e1")
 		(property "Reference" "#PWR045"
-			(at 205.74 46.99 0)
+			(at 201.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,7 +10830,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 196.85 46.99 90)
+			(at 201.93 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12391,7 +12391,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 199.39 34.29 90)
+		(at 199.39 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12399,7 +12399,7 @@
 		(dnp no)
 		(uuid "bdc1b12d-3129-4cb9-a136-667ea101f631")
 		(property "Reference" "#PWR043"
-			(at 203.2 34.29 0)
+			(at 199.39 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12408,7 +12408,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 195.58 34.29 0)
+			(at 199.39 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

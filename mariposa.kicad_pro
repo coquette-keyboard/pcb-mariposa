@@ -209,7 +209,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -833,6 +833,10 @@
     [
       "3ca3d760-5559-4665-8ed1-eaf6a9f1daf8",
       "argb"
+    ],
+    [
+      "67104dd5-cbb0-4573-9e94-961a343fd21e",
+      "addons"
     ]
   ],
   "text_variables": {}
