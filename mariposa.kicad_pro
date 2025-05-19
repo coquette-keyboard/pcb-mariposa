@@ -60,43 +60,63 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|148830000|72012679|636d6eba-9d3e-491f-a3f1-4be22e48e205|eacf2c2e-a556-422b-9a45-05b72aff977d",
+          "hole_clearance|144520000|62429321|5c0328ad-fb35-406d-a070-168886cbcb2c|df35338b-6471-4787-9ac6-e949d0cd7d84",
           ""
         ],
         [
-          "copper_edge_clearance|148830000|72552679|636d6eba-9d3e-491f-a3f1-4be22e48e205|20d8b095-744d-4c3a-a33e-a131dd5cc554",
+          "hole_clearance|144520000|62429321|5f245cc3-67f1-4e1d-8ee9-8b11f9382730|df35338b-6471-4787-9ac6-e949d0cd7d84",
           ""
         ],
         [
-          "copper_edge_clearance|151170000|72012679|dc7b34af-2021-475d-a031-068e4e96c1f3|02ffbc35-27a6-4e47-a838-034338635357",
+          "hole_clearance|150480000|62429321|3f2b505e-5e69-4321-aded-efe2b3e3d753|1c554adb-da5a-4b9e-936c-3e5612a09f3c",
           ""
         ],
         [
-          "copper_edge_clearance|151170000|72552679|dc7b34af-2021-475d-a031-068e4e96c1f3|63d19c0b-157b-4d98-8fd6-f1e106ac4bfc",
+          "hole_clearance|150480000|62429321|c64a7011-ebce-4312-87bb-75048c3fe846|1c554adb-da5a-4b9e-936c-3e5612a09f3c",
           ""
         ],
         [
-          "drill_out_of_range|163820003|53080000|be6db593-d407-4ca9-9bc4-1bf89d7d44d5|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|139657758|80883758|2b81c256-d697-47eb-9231-b91a3ec149ea|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "drill_out_of_range|164920000|53080000|b1a23e8d-4a34-4316-b978-56bd18769cd1|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|139660679|80912002|3113b88f-bbb3-4ee5-8b4c-c0e90aa4cc11|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "hole_clearance|146950000|48081927|1c554adb-da5a-4b9e-936c-3e5612a09f3c|3f2b505e-5e69-4321-aded-efe2b3e3d753",
+          "silk_over_copper|139664848|80934879|b99f4eb1-6d00-46df-b500-81b0001ce7db|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "hole_clearance|146950000|48081927|1c554adb-da5a-4b9e-936c-3e5612a09f3c|c64a7011-ebce-4312-87bb-75048c3fe846",
+          "silk_over_copper|139680347|80796713|b4f9d95b-e34a-43fe-9d08-be764e7a2ab9|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "hole_clearance|153050000|48081927|df35338b-6471-4787-9ac6-e949d0cd7d84|5c0328ad-fb35-406d-a070-168886cbcb2c",
+          "silk_over_copper|139687793|80791577|6282aad6-0edf-4fb7-b2f4-0aff85492e37|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "hole_clearance|153050000|48081927|df35338b-6471-4787-9ac6-e949d0cd7d84|5f245cc3-67f1-4e1d-8ee9-8b11f9382730",
+          "silk_over_copper|139852488|80730399|bba9c1bb-0726-445d-be73-c3e09d7c23f6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|140154040|80713130|f1e8f7d8-872f-4785-b5f8-e30d3599dd76|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|140166158|80710198|65e064f6-bba6-4469-a3a3-bd947649dc94|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|140166158|80710198|a7276fb8-7526-4f0c-87d6-871b29d7b013|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|140309764|80755581|e2315560-1115-41fc-af59-a7481969ee94|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|140335699|80782503|0ca58c1d-9752-47dc-b3f0-05e703c93031|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -149,6 +169,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -164,11 +185,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.13,
-        "min_connection": 0.13,
+        "min_clearance": 0.11,
+        "min_connection": 0.11,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -176,10 +197,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7,
         "min_text_thickness": 0.05,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.152,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.4,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.11,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.2,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -188,7 +209,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -219,12 +240,12 @@
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.42,
+          "td_length_ratio": 1.0,
           "td_maxheight": 0.7,
-          "td_maxlen": 0.5,
+          "td_maxlen": 1.1,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 1.0
         }
       ],
       "track_widths": [
@@ -300,7 +321,7 @@
           "drill": 0.5
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -550,7 +571,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.11,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -561,14 +582,14 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgb(0, 255, 156)",
-        "track_width": 0.152,
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
+        "track_width": 0.11,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
         "wire_width": 8
       },
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.11,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -578,9 +599,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(255, 0, 106)",
-        "track_width": 0.152,
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
+        "track_width": 0.15,
+        "via_diameter": 0.35,
+        "via_drill": 0.25,
         "wire_width": 16
       }
     ],
@@ -626,6 +647,9 @@
         "power"
       ],
       "Net-(J6-Pin_6)": [
+        "power"
+      ],
+      "Net-(MDBT1-VBUS)": [
         "power"
       ],
       "PRI_LO": [
@@ -809,6 +833,10 @@
     [
       "3ca3d760-5559-4665-8ed1-eaf6a9f1daf8",
       "argb"
+    ],
+    [
+      "67104dd5-cbb0-4573-9e94-961a343fd21e",
+      "addons"
     ]
   ],
   "text_variables": {}

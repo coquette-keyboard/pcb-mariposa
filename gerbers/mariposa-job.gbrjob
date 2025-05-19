@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.8"
+      "Version": "9.0.2"
     },
-    "CreationDate": "2025-02-04T17:04:15+00:00"
+    "CreationDate": "2025-05-11T21:09:13+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,86 +14,96 @@
       "Revision": "2.0"
     },
     "Size": {
-      "X": 49.5764,
-      "Y": 106.0791
+      "X": 36.0546,
+      "Y": 77.5272
     },
-    "LayerNumber": 4,
+    "LayerNumber": 6,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.13,
-      "PadToTrack": 0.13,
-      "TrackToTrack": 0.13,
-      "MinLineWidth": 0.152,
-      "TrackToRegion": 0.13,
-      "RegionToRegion": 0.13
+      "PadToPad": 0.11,
+      "PadToTrack": 0.11,
+      "TrackToTrack": 0.11,
+      "MinLineWidth": 0.11,
+      "TrackToRegion": 0.11,
+      "RegionToRegion": 0.11
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.13,
-      "PadToTrack": 0.13,
-      "TrackToTrack": 0.13,
-      "MinLineWidth": 0.2,
-      "TrackToRegion": 0.13,
-      "RegionToRegion": 0.13
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.11,
+      "MinLineWidth": 0.13,
+      "TrackToRegion": 0.11,
+      "RegionToRegion": 0.11
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "mariposa-F_Cu.gbr",
+      "Path": "mariposa-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-In1_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
+      "Path": "mariposa-In1_Cu.g1",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-In2_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
+      "Path": "mariposa-In2_Cu.g2",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-B_Cu.gbr",
-      "FileFunction": "Copper,L4,Bot",
+      "Path": "mariposa-In3_Cu.g3",
+      "FileFunction": "Copper,L9,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-F_Paste.gbr",
+      "Path": "mariposa-In4_Cu.g4",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "mariposa-B_Cu.gbl",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "mariposa-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-B_Paste.gbr",
+      "Path": "mariposa-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-F_Silkscreen.gbr",
+      "Path": "mariposa-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-B_Silkscreen.gbr",
+      "Path": "mariposa-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "mariposa-F_Mask.gbr",
+      "Path": "mariposa-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "mariposa-B_Mask.gbr",
+      "Path": "mariposa-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "mariposa-Edge_Cuts.gbr",
+      "Path": "mariposa-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -131,7 +141,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.24,
+      "Thickness": 0.535,
       "Material": "FR4",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -145,8 +155,32 @@
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "In2.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+      "Name": "In2.Cu/In3.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In3.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "In3.Cu/In4.Cu",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In4.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "In4.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
     },
     {
       "Type": "Copper",

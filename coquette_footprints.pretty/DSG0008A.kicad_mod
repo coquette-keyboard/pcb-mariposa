@@ -1,7 +1,7 @@
 (footprint "DSG0008A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "BQ25170DSGR ")
 	(property "Reference" "REF**"
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "afc1099e-ddde-42a7-ac0f-d3084c7c5e17")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -66,73 +54,25 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.450002 -0.148996) (xy -0.450002 -0.750997) (xy -0.449059 -0.760557) (xy -0.44627 -0.76975)
-			(xy -0.441742 -0.77822) (xy -0.435648 -0.785645) (xy -0.428224 -0.791738) (xy -0.419753 -0.796267)
-			(xy -0.410561 -0.799056) (xy -0.401 -0.799996) (xy 0.401 -0.799996) (xy 0.410561 -0.799056) (xy 0.419753 -0.796267)
-			(xy 0.428224 -0.791738) (xy 0.435648 -0.785645) (xy 0.441742 -0.77822) (xy 0.44627 -0.76975) (xy 0.449059 -0.760557)
-			(xy 0.450002 -0.750997) (xy 0.450002 -0.148996) (xy 0.449059 -0.139436) (xy 0.44627 -0.130244) (xy 0.441742 -0.121773)
-			(xy 0.435648 -0.114348) (xy 0.428224 -0.108255) (xy 0.419753 -0.103726) (xy 0.410561 -0.100937) (xy 0.401 -0.099995)
-			(xy -0.401 -0.099995) (xy -0.410561 -0.100937) (xy -0.419753 -0.103726) (xy -0.428224 -0.108255)
-			(xy -0.435648 -0.114348) (xy -0.441742 -0.121773) (xy -0.44627 -0.130244) (xy -0.449059 -0.139436)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "028937dd-0fda-4897-926a-c2282dde85a9")
-	)
-	(fp_poly
-		(pts
-			(xy -0.450002 0.751002) (xy -0.450002 0.149001) (xy -0.449059 0.139441) (xy -0.44627 0.130249) (xy -0.441742 0.121778)
-			(xy -0.435648 0.114353) (xy -0.428224 0.10826) (xy -0.419753 0.103731) (xy -0.410561 0.100942) (xy -0.401 0.100002)
-			(xy 0.401 0.100002) (xy 0.410561 0.100942) (xy 0.419753 0.103731) (xy 0.428224 0.10826) (xy 0.435648 0.114353)
-			(xy 0.441742 0.121778) (xy 0.44627 0.130249) (xy 0.449059 0.139441) (xy 0.450002 0.149001) (xy 0.450002 0.751002)
-			(xy 0.449059 0.760562) (xy 0.44627 0.769755) (xy 0.441742 0.778226) (xy 0.435648 0.78565) (xy 0.428224 0.791743)
-			(xy 0.419753 0.796272) (xy 0.410561 0.799061) (xy 0.401 0.800003) (xy -0.401 0.800003) (xy -0.410561 0.799061)
-			(xy -0.419753 0.796272) (xy -0.428224 0.791743) (xy -0.435648 0.78565) (xy -0.441742 0.778226) (xy -0.44627 0.769755)
-			(xy -0.449059 0.760562)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "ebf69aa0-5daa-4067-a0d7-ae81a44bdeb0")
-	)
 	(fp_line
-		(start -1.074999 1.150003)
-		(end -0.900001 1.150003)
+		(start -1 1.1)
+		(end 1 1.1)
 		(stroke
-			(width 0.17)
+			(width 0.18)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "d6007458-8378-4902-94eb-0219a72d4887")
 	)
 	(fp_line
-		(start 0.900001 -1.149998)
-		(end 1.074999 -1.149998)
+		(start 0 -1.1)
+		(end 1 -1.1)
 		(stroke
-			(width 0.17)
+			(width 0.18)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "68b3be88-5960-46b7-9724-44ebaded487e")
-	)
-	(fp_line
-		(start 0.900001 1.150003)
-		(end 1.074999 1.150003)
-		(stroke
-			(width 0.17)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "09589d43-888f-4107-bc65-3fc20c1d0300")
 	)
 	(fp_circle
 		(center -1.3 -1.21)
@@ -141,7 +81,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b5ca99d2-3952-44fe-8db3-23c60dc30782")
 	)
@@ -192,7 +132,7 @@
 			(width 0.07)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "637d7be8-d2ca-4bc8-9be0-9609dee6b306")
 	)
@@ -208,10 +148,26 @@
 			)
 		)
 	)
+	(pad "" smd roundrect
+		(at -0.000624 -0.45)
+		(size 0.801248 0.6175)
+		(layers "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "f37a8a20-aaff-4902-919d-704d64382a2b")
+	)
+	(pad "" smd roundrect
+		(at -0.000624 0.45)
+		(size 0.801248 0.6175)
+		(layers "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e00270ba-fec7-4dd3-993c-76d80bc2fb14")
+	)
 	(pad "1" smd roundrect
 		(at -0.950001 -0.749998 90)
 		(size 0.25 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.04)
 		(solder_paste_margin -0.01)
@@ -220,7 +176,7 @@
 	(pad "2" smd roundrect
 		(at -0.950001 -0.25 90)
 		(size 0.25 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.04)
 		(solder_paste_margin -0.01)
@@ -229,7 +185,7 @@
 	(pad "3" smd roundrect
 		(at -0.950001 0.250002 90)
 		(size 0.25 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.04)
 		(solder_paste_margin -0.01)
@@ -238,7 +194,7 @@
 	(pad "4" smd roundrect
 		(at -0.950001 0.750001 90)
 		(size 0.25 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.04)
 		(solder_paste_margin -0.01)
@@ -247,7 +203,7 @@
 	(pad "5" smd roundrect
 		(at 0.950001 0.750001 90)
 		(size 0.25 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.04)
 		(solder_paste_margin -0.01)
@@ -256,7 +212,7 @@
 	(pad "6" smd roundrect
 		(at 0.950001 0.250002 90)
 		(size 0.25 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.04)
 		(solder_paste_margin -0.01)
@@ -265,7 +221,7 @@
 	(pad "7" smd roundrect
 		(at 0.950001 -0.25 90)
 		(size 0.25 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.04)
 		(solder_paste_margin -0.01)
@@ -274,7 +230,7 @@
 	(pad "8" smd roundrect
 		(at 0.950001 -0.749998 90)
 		(size 0.25 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.04)
 		(solder_paste_margin -0.01)
@@ -306,4 +262,5 @@
 		(zone_connect 2)
 		(uuid "7ce66f51-84e9-4e36-bb1c-7ed786b4a9ab")
 	)
+	(embedded_fonts no)
 )
