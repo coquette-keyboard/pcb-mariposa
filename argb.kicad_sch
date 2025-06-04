@@ -3715,7 +3715,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 77.47 34.29 90)
+		(at 77.47 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3724,7 +3724,7 @@
 		(fields_autoplaced yes)
 		(uuid "243d749c-b8b0-4502-97a9-3c51f388fa32")
 		(property "Reference" "#PWR02"
-			(at 81.28 34.29 0)
+			(at 77.47 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3733,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 73.66 34.2899 90)
+			(at 80.01 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
