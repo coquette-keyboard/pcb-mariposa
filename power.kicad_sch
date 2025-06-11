@@ -4867,7 +4867,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 27.94) (xy 76.2 27.94)
+			(xy 73.66 27.94) (xy 85.09 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4964,6 +4964,16 @@
 			(type default)
 		)
 		(uuid "bbb76f09-3cb3-4b57-bcbc-673f74a7fa66")
+	)
+	(wire
+		(pts
+			(xy 147.32 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be498cde-94d9-415d-8ee9-78a1c0251edb")
 	)
 	(wire
 		(pts
@@ -7231,7 +7241,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 76.2 27.94 90)
+		(at 85.09 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7239,7 +7249,7 @@
 		(dnp no)
 		(uuid "456d1791-f4d0-4caf-a806-37fc5cfb9c91")
 		(property "Reference" "#PWR024"
-			(at 82.55 27.94 0)
+			(at 85.09 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 79.756 27.94 90)
+			(at 85.09 31.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 27.94 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 27.94 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +7285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 76.2 27.94 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,7 +9149,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 149.86 118.11 90)
+		(at 147.32 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9147,7 +9157,7 @@
 		(dnp no)
 		(uuid "9c695a23-9708-4029-9df8-141f613c3d17")
 		(property "Reference" "#PWR018"
-			(at 153.67 118.11 0)
+			(at 147.32 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,7 +9166,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 150.114 120.396 90)
+			(at 144.526 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 118.11 0)
+			(at 147.32 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +9184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 118.11 0)
+			(at 147.32 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +9193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 149.86 118.11 0)
+			(at 147.32 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
