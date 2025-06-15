@@ -26,7 +26,7 @@ mariposa is the microcontroller board for the coquette keyboard. note that this 
 - 1 0603 1% resistor for charger VSET, 27k for 4.2V, 36k for 4.1V which will prolong battery longevity at the expense of runtime but this thing should last ages anyway. up to you.
 - 1 2xR27 2x0603 convex resistor array - impedance matching USB data pair
 - 1 0603 1% resistor for charger ISET, formula is 300/resistor in kohm = charge current in mA. i'm using 1.8k for 167mA charge current. most batteries it is dangerous to exceed 1C (charge current in mA = battery capacity in mAh)
-- 2 R620 0603 thick film resistors, one for current limiting LED data output, one for current limiting status LED
+- 2 R620 0805 thick film resistors, one for current limiting LED data output, one for current limiting status LED
 - 1 2x whatever 2x0603 convex resistor array - marked as 2.2k as good value, but hard package to find so use whatever, it's just current limiting a couple button inputs as a safety measure
 - 2 5.1k 0603 resistors, identify USB-C device
 - 1 7.5M 0805 1% or better resistor - one leg of battery level voltage divider
@@ -48,4 +48,4 @@ mariposa is the microcontroller board for the coquette keyboard. note that this 
 - 1 JST_SH_SM08B-SRSS-TB_1x08 or similar - Pimoroni SP/CE-like SPI and PWM output
 - 1 shitty add-on SMD connector - for Hackaday v1.69bis shitty add ons
 - 6 SK6805-EC14 ARGB LEDs - picked for the 0.25mA quiescent, still even at 0% brightness the 1.5mA total will drain a 250mAh battery in under a day. be sure you use the load switch wisely
-- 1 0603 LED - for a status light. have fun!
+- 1 0805 LED - for a status light. have fun!

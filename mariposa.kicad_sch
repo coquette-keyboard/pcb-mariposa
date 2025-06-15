@@ -5536,10 +5536,10 @@
 		(uuid "97dfa444-170c-4bfc-9004-4d645f1461ea")
 	)
 	(junction
-		(at 149.86 104.14)
+		(at 139.7 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b43abc04-f399-4b67-a351-7961869e2b6c")
+		(uuid "ac10aaea-f7b6-45b6-8b5f-366018d74140")
 	)
 	(junction
 		(at 129.54 66.04)
@@ -5583,13 +5583,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 104.14) (xy 149.86 104.14)
+			(xy 139.7 96.52) (xy 147.32 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d157a00-3c5a-40fe-99ac-ce8e350438e0")
+		(uuid "019d4971-c82e-48eb-8e57-261969ceb06b")
 	)
 	(wire
 		(pts
@@ -5793,13 +5793,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 149.86 96.52)
+			(xy 120.65 96.52) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb8ffff5-7be7-45c5-a527-59bf33d6d978")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7087ca-b66b-4f2c-986a-0869afed8308")
 	)
 	(wire
 		(pts
@@ -5900,6 +5910,16 @@
 			(type default)
 		)
 		(uuid "f70d4ecc-afa8-4267-8a05-487a6cb1c88a")
+	)
+	(label "nrf_vbus"
+		(at 130.81 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20fec3a8-0d94-4097-b5b6-aa72cd92b59a")
 	)
 	(global_label "ch16"
 		(shape input)
@@ -8238,7 +8258,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 149.86 104.14 270)
+		(at 147.32 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8248,7 +8268,7 @@
 		)
 		(uuid "b6fa9e6d-0286-4534-9761-41c4524c9cb8")
 		(property "Netclass" "power"
-			(at 152.4 102.9335 90)
+			(at 148.5265 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9483,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
 			(at 81.28 173.99 0)
 			(effects
 				(font
@@ -9602,7 +9622,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 86.36 137.16 0)
+		(at 86.36 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9610,7 +9630,7 @@
 		(dnp no)
 		(uuid "427968e8-a8df-4128-aa1f-bc3c7ae5a04e")
 		(property "Reference" "Y1"
-			(at 87.63 133.35 0)
+			(at 85.09 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9639,7 @@
 			)
 		)
 		(property "Value" "CFPX-217 32.768KHz 9pF"
-			(at 101.346 141.732 0)
+			(at 71.374 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9758,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 146.05 111.76 0)
+		(at 139.7 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9747,7 +9767,7 @@
 		(fields_autoplaced yes)
 		(uuid "52f90019-b994-433e-894f-ee2c2562e52f")
 		(property "Reference" "#PWR0103"
-			(at 146.05 118.11 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9776,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 116.84 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,7 +9784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 111.76 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9773,7 +9793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 111.76 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,7 +9802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 146.05 111.76 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +9957,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 149.86 104.14 180)
+		(at 152.4 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9945,7 +9965,7 @@
 		(dnp no)
 		(uuid "54ce4902-7097-4000-a277-b4d31369d79a")
 		(property "Reference" "#PWR063"
-			(at 149.86 100.33 0)
+			(at 152.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,7 +9974,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 149.86 109.22 90)
+			(at 152.4 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +9982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 104.14 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +9991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 104.14 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,7 +10000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 149.86 104.14 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11203,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 149.86 100.33 0)
+		(at 147.32 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11191,7 +11211,7 @@
 		(dnp no)
 		(uuid "9404ec7e-d517-42dd-b333-75127dd8ddef")
 		(property "Reference" "R21"
-			(at 145.542 100.33 90)
+			(at 143.002 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,7 +11219,7 @@
 			)
 		)
 		(property "Value" "R2.2"
-			(at 147.574 100.33 90)
+			(at 145.034 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +11227,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 150.876 100.584 90)
+			(at 148.336 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 100.33 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11245,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 149.86 100.33 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11516,7 +11536,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 107.95 180)
+		(at 139.7 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11524,7 +11544,7 @@
 		(dnp no)
 		(uuid "aa36b298-68b4-41fd-a28e-38b15b922933")
 		(property "Reference" "C48"
-			(at 138.938 107.188 0)
+			(at 132.588 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,7 +11553,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 138.176 109.22 0)
+			(at 131.826 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11542,7 +11562,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 145.0848 104.14 0)
+			(at 138.7348 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11551,7 +11571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 107.95 0)
+			(at 139.7 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11560,7 +11580,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 107.95 0)
+			(at 139.7 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,7 +12709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.406 175.006 90)
 			(effects
 				(font
