@@ -5107,6 +5107,16 @@
 		)
 		(uuid "f486c729-a2ba-444b-922c-0fa54e4e0363")
 	)
+	(label "shield"
+		(at 27.94 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49a1bc88-31f7-4a53-9dee-3950937ca990")
+	)
 	(global_label "scl"
 		(shape input)
 		(at 68.58 111.76 180)
